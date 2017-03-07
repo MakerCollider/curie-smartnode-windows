@@ -1,0 +1,366 @@
+{
+ "nodes": {
+  "node-red": {
+   "name": "node-red",
+   "version": "0.13.4",
+   "nodes": {
+    "switch": {
+     "name": "switch",
+     "types": [
+      "switch"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\nodes\\core\\logic\\10-switch.js"
+    },
+    "change": {
+     "name": "change",
+     "types": [
+      "change"
+     ],
+     "enabled": true,
+     "module": "node-red",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\nodes\\core\\logic\\15-change.js"
+    }
+   }
+  },
+  "node-red-contrib-smartnode": {
+   "name": "node-red-contrib-smartnode",
+   "version": "1.0.0",
+   "nodes": {
+    "interpreter": {
+     "name": "interpreter",
+     "types": [
+      "interpreter"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\compile\\interpreter\\interpreter.js"
+    },
+    "StartSwitch": {
+     "name": "StartSwitch",
+     "types": [
+      "StartSwitch"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\output\\StartSwitch\\StartSwitch.js"
+    },
+    "Delay": {
+     "name": "Delay",
+     "types": [
+      "Delay"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\output\\Delay\\Delay.js"
+    },
+    "LED": {
+     "name": "LED",
+     "types": [
+      "LED"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\led\\LED.js"
+    },
+    "Sound": {
+     "name": "Sound",
+     "types": [
+      "Sound"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\sound\\sound.js"
+    },
+    "Light": {
+     "name": "Light",
+     "types": [
+      "Light"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\light\\light.js"
+    },
+    "Button": {
+     "name": "Button",
+     "types": [
+      "Button"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\button\\button.js"
+    },
+    "Touch": {
+     "name": "Touch",
+     "types": [
+      "Touch"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\touch\\touch.js"
+    },
+    "Relay": {
+     "name": "Relay",
+     "types": [
+      "Relay"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\relay\\relay.js"
+    },
+    "Rotary": {
+     "name": "Rotary",
+     "types": [
+      "Rotary"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\rotary\\rotary.js"
+    },
+    "Buzzer": {
+     "name": "Buzzer",
+     "types": [
+      "Buzzer"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\buzzer\\buzzer.js"
+    },
+    "GroveTemperature": {
+     "name": "GroveTemperature",
+     "types": [
+      "GroveTemperature"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\GroveSensors\\groveTemp\\groveTemp.js"
+    },
+    "ADKeyboard": {
+     "name": "ADKeyboard",
+     "types": [
+      "ADKeyboard"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\ADKeyboard\\ADKeyboard.js"
+    },
+    "DFColor": {
+     "name": "DFColor",
+     "types": [
+      "DFColor"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFColor\\DFColor.js"
+    },
+    "DFLed": {
+     "name": "DFLed",
+     "types": [
+      "DFLed"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFLed\\DFLed.js"
+    },
+    "DFButton": {
+     "name": "DFButton",
+     "types": [
+      "DFButton"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFButton\\DFButton.js"
+    },
+    "DFBuzzer": {
+     "name": "DFBuzzer",
+     "types": [
+      "DFBuzzer"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFBuzzer\\DFBuzzer.js"
+    },
+    "DFRotation": {
+     "name": "DFRotation",
+     "types": [
+      "DFRotation"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFRotation\\DFRotation.js"
+    },
+    "DFLight": {
+     "name": "DFLight",
+     "types": [
+      "DFLight"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFLight\\DFLight.js"
+    },
+    "DFPIRMotion": {
+     "name": "DFPIRMotion",
+     "types": [
+      "DFPIRMotion"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFPIRMotion\\DFPIRMotion.js"
+    },
+    "DFServo": {
+     "name": "DFServo",
+     "types": [
+      "DFServo"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFServo\\DFServo.js"
+    },
+    "DFTemperature": {
+     "name": "DFTemperature",
+     "types": [
+      "DFTemperature"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFTemperature\\DFTemperature.js"
+    },
+    "DFSound": {
+     "name": "DFSound",
+     "types": [
+      "DFSound"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFSound\\DFSound.js"
+    },
+    "DFTouch": {
+     "name": "DFTouch",
+     "types": [
+      "DFTouch"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFTouch\\DFTouch.js"
+    },
+    "DFUV": {
+     "name": "DFUV",
+     "types": [
+      "DFUV"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFUV\\DFUV.js"
+    },
+    "DFInfraredAvoid": {
+     "name": "DFInfraredAvoid",
+     "types": [
+      "DFInfraredAvoid"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\DFInfraredAvoid\\DFInfraredAvoid.js"
+    },
+    "IRDistance": {
+     "name": "IRDistance",
+     "types": [
+      "IRDistance"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\DFSensors\\IRDistance\\IRDistance.js"
+    },
+    "Neurons": {
+     "name": "Neurons",
+     "types": [
+      "Neurons"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\neuron\\neurons\\neurons.js"
+    },
+    "Accelerometer": {
+     "name": "Accelerometer",
+     "types": [
+      "Accelerometer"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\neuron\\Accelerometer\\Accelerometer.js"
+    },
+    "Gyro": {
+     "name": "Gyro",
+     "types": [
+      "Gyro"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\neuron\\Gyro\\Gyro.js"
+    },
+    "BreathLed": {
+     "name": "BreathLed",
+     "types": [
+      "BreathLed"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\SpecialDevices\\BreathLed\\BreathLed.js"
+    },
+    "PWMLed": {
+     "name": "PWMLed",
+     "types": [
+      "PWMLed"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\SpecialDevices\\PWMLed\\PWMLed.js"
+    },
+    "MotorDriver": {
+     "name": "MotorDriver",
+     "types": [
+      "MotorDriver"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\SpecialDevices\\MotorDriver\\MotorDriver.js"
+    },
+    "Ble": {
+     "name": "Ble",
+     "types": [
+      "Ble"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\SpecialDevices\\Ble\\Ble.js"
+    },
+    "SDWrite": {
+     "name": "SDWrite",
+     "types": [
+      "SDWrite"
+     ],
+     "enabled": true,
+     "module": "node-red-contrib-smartnode",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-contrib-smartnode\\output\\SDWrite\\SDWrite.js"
+    }
+   }
+  },
+  "node-red-node-serialport": {
+   "name": "node-red-node-serialport",
+   "version": "0.1.2",
+   "nodes": {
+    "inject": {
+     "name": "inject",
+     "types": [
+      "inject",
+      "serial-port",
+      "debug"
+     ],
+     "enabled": true,
+     "module": "node-red-node-serialport",
+     "file": "D:\\nodejs\\node-red-max\\curie-smartnode\\smart-node\\node_modules\\node-red-node-serialport\\20-inject.js"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,116 @@
+{
+  "runtime":{
+    "welcome":"欢迎使用Curie-SmartNode",
+    "version":"__component__ 版本: __version__",
+    "paths":{
+      "settings":"设置文件: __path__"
+    }
+  },
+  "server":{
+    "loading":"正在加载节点",
+    "errors":"未能注册 __count__ 节点类型",
+    "errors_plural":"未能注册 __count__ 节点类型",
+    "errors-help":"运行与-v 看详细信息",
+    "missing-modules":"欠缺的节点模块:",
+    "removing-modules":"从配置中删除模块",
+    "added-types":"添加的节点类型:",
+    "removed-types":"已删除的节点类型:",
+    "install":{
+      "invalid":"无效的模块名称",
+      "installing":"安装模块: __name__",
+      "installed":"已安装的模块: __name__",
+      "install-failed":"安装失败",
+      "install-failed-long":"模块 __name__ 安装失败:",
+      "install-failed-not-found":"$t(install-failed-long) 模块未找到",
+      "uninstalling":"卸载模块: __name__",
+      "uninstall-failed":"卸载失败",
+      "uninstall-failed-long":"卸载模块 __name__ 失败:",
+      "uninstalled":"卸载的模块: __name__"
+    },
+    "unable-to-listen":"不能在 __listenpath__ 上进行侦听",
+    "port-in-use":"出错：端口已经被使用",
+    "uncaught-exception":"未捕获的异常:",
+    "admin-ui-disabled":"Admin 用户界面已禁用",
+    "now-running":"现在运行在 __listenpath__ 服务器",
+    "failed-to-start":"无法启动服务器:",
+    "headless-mode":"在无头模式下运行",
+    "httpadminauth-deprecated":"不建议使用的 httpAdminAuth。改用 adminAuth"
+  },
+  "api":{
+    "flows":{
+      "error-save":"保存工作流时出现错误: __message__"
+    },
+    "library":{
+      "error-load-entry":"加载库条目 '__path__' 时出错: __message__",
+      "error-save-entry":"保存库 '__path__' 时出现错误: __message__",
+      "error-load-flow":"加载工作流 '__path__' 时出错: __message__",
+      "error-save-flow":"保存工作流 '__path__' 时出现错误: __message__"
+    },
+    "nodes":{
+      "enabled":"已启用的节点类型:",
+      "disabled":"被禁用的节点类型:",
+      "error-enable":"未能启用节点:"
+    }
+  },
+  "comms":{
+    "error":"通信通道错误: __message__",
+    "error-server":"通信服务器错误: __message__",
+    "error-send":"通信发送错误: __message__"
+  },
+  "settings":{
+    "not-available":"设置不可用",
+    "property-read-only":"'__prop__' 属性为只读"
+  },
+  "nodes":{
+    "credentials":{
+      "error":"加载凭据时出现错误: __message__",
+      "not-registered":"凭据类型 '__type__' 未注册"
+    },
+    "flows":{
+      "registered-missing":"缺少类型注册: __type__",
+      "error":"加载工作流时出错: __message__",
+      "starting-modified-nodes":"开始修改的节点",
+      "starting-modified-flows":"开始修改的流程",
+      "starting-flows":"开始流程",
+      "started-modified-nodes":"开始修改的节点",
+      "started-modified-flows":"开始修改过的流程",
+      "started-flows":"开始流程",
+      "stopping-modified-nodes":"停止修改的节点",
+      "stopping-modified-flows":"停止的改性的流程",
+      "stopping-flows":"停止流程",
+      "stopped-modified-nodes":"停止修改的节点",
+      "stopped-modified-flows":"停止了改性的流程",
+      "stopped-flows":"已停止的流程",
+      "stopped":"已停止",
+      "missing-types":"等待注册缺少的类型:",
+      "missing-type-provided":" -__type__ (由 npm 模块 __module__ 提供)",
+      "missing-type-install-1":"若要安装任何缺少的模块，请运行:",
+      "missing-type-install-2":"在目录中:"
+    },
+    "flow":{
+      "unknown-type":"未知的类型: __type__",
+      "missing-types":"缺少类型",
+      "error-loop":"信息超过了最大数目的捕获"
+    },
+    "index":{
+      "unrecognised-id":"未确认的 id: __id__",
+      "type-in-use":"Type in use: __msg__",
+      "unrecognised-module":"未确认的模块: __module__"
+    },
+    "registry":{
+      "localfilesystem":{
+        "module-not-found":"找不到模块： '__module__'"
+      }
+    }
+  },
+  "storage":{
+    "index":{
+      "forbidden-flow-name":"被禁止的流程名称"
+    },
+    "localfilesystem":{
+      "user-dir":"用户目录: __path__",
+      "flows-file":"工作流文件: __path__",
+      "create":"创建新的工作流文件"
+    }
+  }
+}
